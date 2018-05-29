@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--Activity titles-->
+  <string name="title_activity_add">Додати друга</string>
+  <!--Navigation / Action Bar-->
+  <string name="add_contact">Додати друга</string>
+  <!--Login Activity-->
+  <!--Create Account Activity-->
+  <!--Main Activity-->
+  <string name="main_no_internet">Немає Інтернет-з\'єднання</string>
+  <!--Chat Activity-->
+  <string name="chat_enter_message">Надіслати повідомлення</string>
+  <!--Add Friend Activity-->
+  <string name="addfriend_friend_key">Tox ID Вашого друга</string>
+  <string name="addfriend_friend_message">Надіслати повідомлення з Вашим запитом</string>
+  <string name="addfriend_button">Додати друга</string>
+  <string name="addfriend_friend_added">Друга додано</string>
+  <string name="addfriend_friend_exists">Друг вже існує</string>
+  <string name="scanqr_button">Сканувати QR-код</string>
+  <string name="invalid_friend_ID">Невірний Tox ID</string>
+  <string name="addfriend_nick_hint">Задайте нік для друга</string>
+  <string name="addfriend_optional_title">Необов\'язкові відомості</string>
+  <!--Friend Profile Activity-->
+  <string name="friend_profile_nick">Псевдонім</string>
+  <string name="friend_profile_key">Tox ID</string>
+  <string name="friend_profile_note">Статус</string>
+  <string name="friend_profile_button">Оновити</string>
+  <string name="friend_profile_updated">Псевдонім був оновлений</string>
+  <!--Friend request fragment-->
+  <string name="friendrequest_accept">Прийняти</string>
+  <string name="friendrequest_reject">Відхилити</string>
+  <string name="friend_request">Новий запит друга</string>
+  <!--Contacts Fragment-->
+  <string name="friend_action_profile">Профіль</string>
+  <string name="friend_action_delete">Видалити друга</string>
+  <string name="friend_action_block">Заблокувати</string>
+  <string name="contacts_actions_on">Дії включені</string>
+  <!--Delete Friend Dialog-->
+  <!--Delete Chat Logs Dialog-->
+  <!--Block Friend Dialog-->
+  <!--Chat Fragment-->
+  <!--Left Pane Fragment-->
+  <!--Misc-->
+  <string name="button_confirm">Підтвердити</string>
+  <string name="button_cancel">Скасувати</string>
+  <string name="button_yes">Так</string>
+  <string name="button_no">Ні</string>
+  <!--QR-->
+  <!--nav bar-->
+</resources>

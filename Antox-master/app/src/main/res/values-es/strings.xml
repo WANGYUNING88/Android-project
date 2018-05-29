@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--Activity titles-->
+  <string name="title_activity_add">Agregar amigo</string>
+  <string name="title_activity_friend_profile">Perfil de amigo</string>
+  <!--Navigation / Action Bar-->
+  <string name="add_contact">Agregar amigo</string>
+  <!--Login Activity-->
+  <!--Create Account Activity-->
+  <string name="create_register">Registrar</string>
+  <!--Main Activity-->
+  <string name="main_recent_no">No hay conversaciones recientes.</string>
+  <string name="main_no_internet">No hay conexión a internet</string>
+  <!--Chat Activity-->
+  <string name="chat_enter_message">Enviar mensaje</string>
+  <!--Add Friend Activity-->
+  <string name="addfriend_friend_key">Ingresa la clave de usuario de tu amigo</string>
+  <string name="addfriend_friend_message">Mensaje opcional a enviar con la solicitud</string>
+  <string name="addfriend_button">Agregar amigo</string>
+  <string name="addfriend_friend_added">Amigo Agregado</string>
+  <string name="addfriend_friend_exists">Amigo ya existe</string>
+  <string name="scanqr_button">Escanear un código QR</string>
+  <string name="invalid_friend_ID">ID de amigo inválida</string>
+  <string name="addfriend_nick_hint">Pon un apodo a tu amigo</string>
+  <string name="addfriend_optional_title">Extras opcionales</string>
+  <string name="dialog_pin">Ingresa el pin de tu amigo</string>
+  <string name="addfriend_invalid_pin">Pin invalido</string>
+  <!--Friend Profile Activity-->
+  <string name="friend_profile_nick">Apodo</string>
+  <string name="friend_profile_key">Tox ID</string>
+  <string name="friend_profile_note">Estado</string>
+  <string name="friend_profile_button">Guardar cambios</string>
+  <string name="friend_profile_updated">El perfil ha sido actualizado</string>
+  <string name="friend_profile_copied">Tox ID copiada</string>
+  <!--Friend request fragment-->
+  <string name="friendrequest_accept">Aceptar</string>
+  <string name="friendrequest_reject">Rechazar</string>
+  <string name="friend_request">Solicitud de Amistad</string>
+  <!--Contacts Fragment-->
+  <string name="friend_action_profile">Perfil</string>
+  <string name="friend_action_delete">Borrar amigo</string>
+  <string name="friend_action_block">Bloquear</string>
+  <string name="contacts_actions_on">Acciones para</string>
+  <!--Delete Friend Dialog-->
+  <!--Delete Chat Logs Dialog-->
+  <!--Block Friend Dialog-->
+  <!--Chat Fragment-->
+  <!--Left Pane Fragment-->
+  <!--Misc-->
+  <string name="button_confirm">Confirmar</string>
+  <string name="button_cancel">Cancelar</string>
+  <string name="button_yes">Sí</string>
+  <string name="button_no">No</string>
+  <string name="button_ok">OK</string>
+  <string name="dialog_tox_id">Copiar Tox ID al portapapeles</string>
+  <string name="share_with">Compartir con</string>
+  <!--QR-->
+  <!--nav bar-->
+</resources>

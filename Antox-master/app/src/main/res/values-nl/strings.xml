@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--Activity titles-->
+  <string name="title_activity_add">Voeg vriend toe</string>
+  <!--Navigation / Action Bar-->
+  <string name="add_contact">Voeg vriend toe</string>
+  <!--Login Activity-->
+  <!--Create Account Activity-->
+  <!--Main Activity-->
+  <string name="main_no_internet">Geen internetverbinding</string>
+  <!--Chat Activity-->
+  <string name="chat_enter_message">Verstuur bericht</string>
+  <!--Add Friend Activity-->
+  <string name="addfriend_friend_key">Je vriend\'s ID</string>
+  <string name="addfriend_friend_message">Optioneel bericht</string>
+  <string name="addfriend_button">Voeg toe</string>
+  <string name="addfriend_friend_added">Toegevoegd aan vrienden</string>
+  <string name="addfriend_friend_exists">Is reeds toegevoegd</string>
+  <string name="scanqr_button">Scan een QR code</string>
+  <string name="invalid_friend_ID">Ongeldige ID</string>
+  <string name="addfriend_nick_hint">Stel een bijnaam in voor je vriend</string>
+  <string name="addfriend_optional_title">Optionele extra\'s</string>
+  <string name="dialog_pin">Voer de pin van je vriend in</string>
+  <string name="addfriend_invalid_pin">Ongeldige Pin</string>
+  <!--Friend Profile Activity-->
+  <string name="friend_profile_nick">Bijnaam</string>
+  <string name="friend_profile_key">Tox ID</string>
+  <string name="friend_profile_note">Status</string>
+  <string name="friend_profile_button">Update</string>
+  <string name="friend_profile_updated">Bijnaam is bijgewerkt</string>
+  <!--Friend request fragment-->
+  <string name="friendrequest_accept">Accepteer</string>
+  <string name="friendrequest_reject">Weiger</string>
+  <string name="friend_request">Nieuw vriendschapsverzoek</string>
+  <!--Contacts Fragment-->
+  <string name="friend_action_profile">Profiel</string>
+  <string name="friend_action_delete">Verwijder</string>
+  <string name="friend_action_block">Blokkeer</string>
+  <string name="contacts_actions_on">Acties aan</string>
+  <!--Delete Friend Dialog-->
+  <!--Delete Chat Logs Dialog-->
+  <!--Block Friend Dialog-->
+  <!--Chat Fragment-->
+  <!--Left Pane Fragment-->
+  <!--Misc-->
+  <string name="button_confirm">Bevestig</string>
+  <string name="button_cancel">Annuleer</string>
+  <string name="button_yes">Ja</string>
+  <string name="button_no">Nee</string>
+  <!--QR-->
+  <!--nav bar-->
+</resources>

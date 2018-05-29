@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <ListView
+        android:id="@+id/chatMessages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white_absolute"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutSend"
+        android:layout_width="fill_parent"
+        android:background="@color/white_absolute"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/divider_comment"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/grey_dark" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/yourMessage"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/margin_small"
+            android:paddingBottom="@dimen/margin_small"
+            android:paddingLeft="20dp"
+            android:imeOptions="actionSend"
+            android:minLines="2"
+            android:maxLines="4"
+            android:inputType="textShortMessage|textCapSentences|textMultiLine|textAutoCorrect"
+            android:textSize="@dimen/text_medium"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:background="@android:color/transparent"
+            android:hint="@string/chat_enter_message" />
+        <ImageView
+            android:contentDescription="Send Button"
+            android:id="@+id/sendMessageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="15dp"
+            android:src="@drawable/ic_send" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_width="match_parent"
+        android:background="@color/white_absolute"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:contentDescription="@string/attachment_file"
+            android:id="@+id/attachmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_attach_file_black_24dp"
+            android:layout_weight="0.33"
+            android:paddingRight="0dp" />
+
+        <ImageView
+            android:contentDescription="@string/attachment_takephoto"
+            android:id="@+id/cameraButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_photo_camera_black_24dp"
+            android:layout_weight="0.33"/>
+
+        <ImageView
+            android:contentDescription="@string/attachment_photo"
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_image_black_24dp"
+            android:layout_weight="0.33" />
+
+    </LinearLayout>
+</LinearLayout>

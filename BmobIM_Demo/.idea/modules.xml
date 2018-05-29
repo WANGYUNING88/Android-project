@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BmobIM_Demo.iml" filepath="$PROJECT_DIR$/BmobIM_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bmobIM/bmobIM.iml" filepath="$PROJECT_DIR$/bmobIM/bmobIM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bmobIM_SDK/bmobIM_SDK.iml" filepath="$PROJECT_DIR$/bmobIM_SDK/bmobIM_SDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bmobIM_SDK_Demo/bmobIM_SDK_Demo.iml" filepath="$PROJECT_DIR$/bmobIM_SDK_Demo/bmobIM_SDK_Demo.iml" />
+    </modules>
+  </component>
+</project>

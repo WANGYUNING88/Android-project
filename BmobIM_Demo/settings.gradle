@@ -1,0 +1,3 @@
+include ':bmobIM_SDK'
+include ':bmobIM_SDK_Demo'
+include ':bmobIM'

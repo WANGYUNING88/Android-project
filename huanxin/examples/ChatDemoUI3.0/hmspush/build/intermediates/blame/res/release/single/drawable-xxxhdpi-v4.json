@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/zhangsong/work/workspace/ci/sdkdemoapp3.0_android/hmspush/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/upsdk_cancel_normal.png",
+        "source": "/home/zhangsong/.android/build-cache/b344813fc0a5d00ef746f53bfb431cf14e02bd3f/output/res/drawable-xxxhdpi-v4/upsdk_cancel_normal.png"
+    },
+    {
+        "merged": "/home/zhangsong/work/workspace/ci/sdkdemoapp3.0_android/hmspush/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/upsdk_btn_emphasis_normal_layer.9.png",
+        "source": "/home/zhangsong/.android/build-cache/b344813fc0a5d00ef746f53bfb431cf14e02bd3f/output/res/drawable-xxxhdpi-v4/upsdk_btn_emphasis_normal_layer.9.png"
+    },
+    {
+        "merged": "/home/zhangsong/work/workspace/ci/sdkdemoapp3.0_android/hmspush/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/upsdk_cancel_pressed.png",
+        "source": "/home/zhangsong/.android/build-cache/b344813fc0a5d00ef746f53bfb431cf14e02bd3f/output/res/drawable-xxxhdpi-v4/upsdk_cancel_pressed.png"
+    }
+]

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="__local_jars__:/home/zhangsong/work/workspace/sdkdemoapp3.0_android/redpacketlibrary/libs/alipaySdk-20161129.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/redpacketlibrary/libs/alipaySdk-20161129.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

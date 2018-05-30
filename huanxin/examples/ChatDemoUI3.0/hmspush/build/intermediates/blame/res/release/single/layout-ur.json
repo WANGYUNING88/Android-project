@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/zhangsong/work/workspace/ci/sdkdemoapp3.0_android/hmspush/build/intermediates/res/merged/release/layout-ur/upsdk_ota_update_view.xml",
+        "source": "/home/zhangsong/.android/build-cache/b344813fc0a5d00ef746f53bfb431cf14e02bd3f/output/res/layout-ur/upsdk_ota_update_view.xml"
+    },
+    {
+        "merged": "/home/zhangsong/work/workspace/ci/sdkdemoapp3.0_android/hmspush/build/intermediates/res/merged/release/layout-ur/upsdk_app_dl_progress_dialog.xml",
+        "source": "/home/zhangsong/.android/build-cache/b344813fc0a5d00ef746f53bfb431cf14e02bd3f/output/res/layout-ur/upsdk_app_dl_progress_dialog.xml"
+    }
+]

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.tencent.bugly:nativecrashreport-3.3.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/3d1d8a2200fe7790fb614a0e314dc72f3ab7ed6e/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/3d1d8a2200fe7790fb614a0e314dc72f3ab7ed6e/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

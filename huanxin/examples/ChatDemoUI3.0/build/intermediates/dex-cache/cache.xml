@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\9350b5b3b6fc4c73308e9e93611033676956dece\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7179aaa14d7ed5273ff6b1f7d96270bc874872be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_ad9bd20da111ff3cc5f619f1f4ef531fae857f17\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android-project\Android-project\huanxin\examples\easeui\easeui\build\intermediates\bundles\default\libs\hyphenatechat_3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="00611cad3af6235b635b391390ff1a1eb386cb55">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\8\hyphenatechat_3.4.1_b1e907749418b04690d56c68535bb98a37fcfda7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4c0c3a9709adc7608860b0a9f65f661cd3ff4d07">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_211de6b07763225906ca807593c48225c854d38f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android\27.0.1\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_68c4291db1515377ca4b4dd8c28822a8fa4be96f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\783cde80ffd1b29929775c74adee278198b57fba\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e1fb737d72e295a54c677c0ab9aecfe3518e2ec6">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_17f3245760699f1b9a36dd6d18d2c57482dc1c8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\554c7e802afd906091e174977c184338f0b90c8e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7df48479a6858c56edadbb92b02e3be38fd20e03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b98c33dc2712e70ab4ab4819e48586f9dc2e3b44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\575b36ef99e027311abc8cd325774ebfb9e5a014\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a639d528764db5a4d6d5d648f5cf5d7bc1bffbd1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\b824cffba36d26adc300a471ca8db5ee07fca10b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e38ddf11b3fa23c99aa59a4b59b13442ab06331c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android-project\Android-project\huanxin\examples\easeui\easeui\build\intermediates\bundles\default\libs\MiPush_SDK_Client_2_2_19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6231c3f3409df7b3172bc5e89f68fbc6beec733e">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\8\MiPush_SDK_Client_2_2_19_9810c2474adbfdecfe591247ee58c5decd494d10\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\b1d571dfcbed01992396a58487a86d42d6a6bbe5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5547e347099d456420ddd0db2a59a798e391f0e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\9aa8a2a356568350a6f4381429aa6906602f4991\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="eb366c8b72908e2afa66c66b0a3f1318265a473e">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c7f46e0909445d374e7629bad7a9516d7dde96d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4804bc82a097b48676dfa4fcd4c6c55a9cd4cef6">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e63e6cf3f1d9d1173a8204fa5c16c35d5366852f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\c81a3dd5549f6f4bfd255752bce2aa13cbcf671c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d23a9200757e644d96ac6e383f9443755f8d1ad1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\0bf3b4e6b4766f2f07447a1239c1a562c43061f8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a41837858011f380fbe73fa0d58ae3b0271b698d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android-project\Android-project\huanxin\examples\easeui\easeui\build\intermediates\bundles\default\libs\org.apache.http.legacy.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f6a788057b9f17f30905e43c2b4ed3e02dc04da3">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\8\org.apache.http.legacy_d5ad08c88cef194060398c86e4de764543a511a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android-project\Android-project\huanxin\examples\easeui\easeui\build\intermediates\bundles\default\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f1d3eb83228ace176170b6c5c9fa3b792011581b">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\8\BaiduLBS_Android_1a924f67f9a24437aa267ad76764b5cde3ae0493\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bd47a98a8f3d53220afca6f869f37c56c273c8d9">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c515bed4202d5cfcca9472655cb4b3feb2f1cf0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.1\5f645bf60e3b88ccc02bd2a4018c5e3ef2f77d0a\parse-android-1.13.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5f645bf60e3b88ccc02bd2a4018c5e3ef2f77d0a">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\parse-android-1.13.1_fd260b47cb448922a8769fbc96420bfb55217863\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\289b939e29b334f098d770c4870ffc5cdea6b9d6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="453427e529ccd47ef859c7d739a59ab32f7f14ee">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_468da1f066d6ee84d9071a11bd35b8fbae9c3f72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\2bc9ed3a830a748475519918e4d3b2a876055b6c\output\jars\libs\UpdateSdk_release_V2.0.1.303.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ec5419714f31fa6a57d78e46a9aa84faff9c560b">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\UpdateSdk_release_V2.0.1.303_6ba90f41007ddca8a45f6877c80f4d95b0294cd0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\3d3254c6a95864a4c2fbd638c705692c0564c300\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef094893c908b00385bd6be07b34e9365dbd6f5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\2bc9ed3a830a748475519918e4d3b2a876055b6c\output\jars\libs\hianalytics_v2.9.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7395d10657966b75a2eb593859bd22a7bea65f71">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\hianalytics_v2.9.1_d8742da239f851403109a681bced9f622accc02d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\b9275c858809eff9c636f3be2341b35780b52cdb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c0ef322c6bf78b9fa31e9df681f60f81ff745f24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\9d0eb2e6ecb9930841d4040a7ecbd8ab378be55c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ed18fdd695456683717079e695c5683cdc042d89">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d2435ba45fa5901c6504830f2b182720a4ac33cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_2833bb6124f57749746d548f1ca559124635da3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\32b3e02b62a62db93ad7451e52fc2356f6a6b14d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8f34896233f3fe6ecb75025e06b33980cee8239a">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a20e28ae57e3cd17beae417aeef4ff06da68a4ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\2bc9ed3a830a748475519918e4d3b2a876055b6c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="36bf78db92d3a589aed028f80c6730357b4eb048">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_45f363479c37e2f15bfead324280fe6891346a24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\4e8ccf6f026767e9e6d9b9762bc21015ddc24de9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b962bfec9d073bef6fd891aaa236ce140b9091c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\7aa12b0814552b979024d617d3dd9242f0b8eac1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="56b24cbd303368a3dc7a0cf1efbeb4f59b9ad742">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5a81da0db7b9dce0db0ee91f4d841d5bc8aaca28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\3d0a58acae5d4dffb0a98087c5b5f18b633be8d8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="49743d94bd8f62b64049c3e3065c18598ce2ca7f">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d3a66ca3151d37fc36f8063ec3605e5fbc81c6ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wang\.android\build-cache\30d50c4f2f8b2c693e94f0f91a3787d668e7da0c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="299ab1162067479f92fd1796b48b3a58d6de3f49">
+        <dex dex="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_766a7f67b3be7508d6a17024510b053c95685d27\classes.dex" />
+    </item>
+
+</items>

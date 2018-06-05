@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ChatDemoUI3.0.iml" filepath="$PROJECT_DIR$/ChatDemoUI3.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/../easeui/easeui/easeui.iml" filepath="$PROJECT_DIR$/../easeui/easeui/easeui.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../emclient-android/hyphenatechatsdk/hyphenatechatsdk.iml" filepath="$PROJECT_DIR$/../emclient-android/hyphenatechatsdk/hyphenatechatsdk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/redpacketlibrary/redpacketlibrary.iml" filepath="$PROJECT_DIR$/redpacketlibrary/redpacketlibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sdkdemoapp3.0_android.iml" filepath="$PROJECT_DIR$/sdkdemoapp3.0_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmspush/hmspush.iml" filepath="$PROJECT_DIR$/hmspush/hmspush.iml" />
+      <module fileurl="file://E:\Android-project\Android-project\huanxin\examples\emclient-android\hyphenatechatsdk\hyphenatechatsdk.iml" filepath="E:\Android-project\Android-project\huanxin\examples\emclient-android\hyphenatechatsdk\hyphenatechatsdk.iml" />
+      <module fileurl="file://E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\redpacketlibrary\redpacketlibrary.iml" filepath="E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\redpacketlibrary\redpacketlibrary.iml" />
     </modules>
   </component>
 </project>

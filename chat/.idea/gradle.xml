@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/chat" />
             <option value="$PROJECT_DIR$/farinaimagelib" />
             <option value="$PROJECT_DIR$/farinatoastlib" />
+            <option value="$PROJECT_DIR$/myapplication" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -1,0 +1,7 @@
+#Thu May 31 16:36:48 CST 2018
+base.0=E\:\\Android-project\\Android-project\\huanxin\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e63e6cf3f1d9d1173a8204fa5c16c35d5366852f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\Android-project\\Android-project\\huanxin\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b98c33dc2712e70ab4ab4819e48586f9dc2e3b44\\classes.dex
+base.1=E\:\\Android-project\\Android-project\\huanxin\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b98c33dc2712e70ab4ab4819e48586f9dc2e3b44
+file.0=E\:\\Android-project\\Android-project\\huanxin\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e63e6cf3f1d9d1173a8204fa5c16c35d5366852f\\classes.dex

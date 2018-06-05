@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="com.android.support.test:runner-0.5">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/c0d3ecb270bdcd9b6e25ba155543653ae00e8764/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/c0d3ecb270bdcd9b6e25ba155543653ae00e8764/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/e81c2053f621b1e151564ce05f82dcb993dd2eff/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/e81c2053f621b1e151564ce05f82dcb993dd2eff/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../Sdk/extras/android/m2repository/com/android/support/test/runner/0.5/runner-0.5-javadoc.jar!/" />
+      <root url="jar://E:/Android/27.0.1/extras/android/m2repository/com/android/support/test/runner/0.5/runner-0.5-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../Sdk/extras/android/m2repository/com/android/support/test/runner/0.5/runner-0.5-sources.jar!/" />
+      <root url="jar://E:/Android/27.0.1/extras/android/m2repository/com/android/support/test/runner/0.5/runner-0.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

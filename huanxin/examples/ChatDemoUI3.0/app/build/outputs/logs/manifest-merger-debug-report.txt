@@ -1,0 +1,1022 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:2:1-423:12
+	package
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:6:5-32
+		INJECTED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:5:5-29
+		INJECTED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:8:22-63
+uses-permission#android.permission.INTERNET
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\wang\.android\build-cache\9aa8a2a356568350a6f4381429aa6906602f4991\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:10:22-68
+uses-permission#android.permission.CAMERA
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:11:22-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:12:5-79
+MERGED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:16:5-79
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\wang\.android\build-cache\9aa8a2a356568350a6f4381429aa6906602f4991\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:14:5-81
+MERGED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:15:5-84
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:15:22-81
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:17:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:18:5-76
+MERGED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:18:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:19:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:20:5-68
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\wang\.android\build-cache\9aa8a2a356568350a6f4381429aa6906602f4991\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:20:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:21:5-80
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:21:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:22:5-75
+MERGED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:22:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:23:22-78
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:24:5-85
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:24:22-82
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:25:5-75
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:25:22-72
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:26:5-95
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:26:22-92
+uses-permission#android.permission.READ_LOGS
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:28:5-68
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:28:22-65
+permission#com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:31:5-33:55
+	android:protectionLevel
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:33:9-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:32:9-74
+uses-permission#com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:35:5-90
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:35:22-87
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:36:5-80
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:36:22-77
+application
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:38:5-421:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\wang\.android\build-cache\32b3e02b62a62db93ad7451e52fc2356f6a6b14d\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\wang\.android\build-cache\575b36ef99e027311abc8cd325774ebfb9e5a014\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\wang\.android\build-cache\c81a3dd5549f6f4bfd255752bce2aa13cbcf671c\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\wang\.android\build-cache\9350b5b3b6fc4c73308e9e93611033676956dece\output\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] C:\Users\wang\.android\build-cache\783cde80ffd1b29929775c74adee278198b57fba\output\AndroidManifest.xml:19:5-29:19
+MERGED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:22:5-94:19
+MERGED from [com.huawei.android.hms:base:2.6.0.301] C:\Users\wang\.android\build-cache\2bc9ed3a830a748475519918e4d3b2a876055b6c\output\AndroidManifest.xml:9:5-21:19
+MERGED from [com.google.firebase:firebase-core:11.4.0] C:\Users\wang\.android\build-cache\a40313852923455b0d580a946ab2ebb2d0e98dcd\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\wang\.android\build-cache\9aa8a2a356568350a6f4381429aa6906602f4991\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.4.0] C:\Users\wang\.android\build-cache\9d0eb2e6ecb9930841d4040a7ecbd8ab378be55c\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\wang\.android\build-cache\3d0a58acae5d4dffb0a98087c5b5f18b633be8d8\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\wang\.android\build-cache\289b939e29b334f098d770c4870ffc5cdea6b9d6\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\wang\.android\build-cache\4e8ccf6f026767e9e6d9b9762bc21015ddc24de9\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\wang\.android\build-cache\3d3254c6a95864a4c2fbd638c705692c0564c300\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\wang\.android\build-cache\0bf3b4e6b4766f2f07447a1239c1a562c43061f8\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\wang\.android\build-cache\554c7e802afd906091e174977c184338f0b90c8e\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\wang\.android\build-cache\b824cffba36d26adc300a471ca8db5ee07fca10b\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\wang\.android\build-cache\b9275c858809eff9c636f3be2341b35780b52cdb\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:42:9-41
+	android:allowBackup
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:40:9-35
+	android:icon
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:41:9-48
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:39:9-40
+activity#com.hyphenate.chatuidemo.ui.MainActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:43:9-48:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:46:13-49
+	android:launchMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:45:13-44
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:48:13-52
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:47:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:44:13-44
+activity#com.hyphenate.chatuidemo.ui.SplashActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:51:9-60:20
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:53:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:54:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:52:13-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:55:13-59:29
+action#android.intent.action.MAIN
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:56:17-69
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:56:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:58:17-77
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:58:27-74
+activity#com.hyphenate.chatuidemo.ui.LoginActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:63:9-67:71
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:65:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:67:13-68
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:66:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:64:13-45
+activity#com.hyphenate.chatuidemo.ui.ServiceCheckActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:70:9-74:71
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:72:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:74:13-68
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:73:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:71:13-52
+activity#com.hyphenate.chatuidemo.ui.RegisterActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:77:9-81:71
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:79:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:81:13-68
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:80:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:78:13-48
+activity#com.hyphenate.chatuidemo.ui.ChatActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:83:9-88:58
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:86:13-49
+	android:launchMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:85:13-44
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:88:13-55
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:87:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:84:13-44
+activity#com.hyphenate.chatuidemo.ui.AddContactActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:90:9-94:58
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:92:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:94:13-55
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:93:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:91:13-50
+activity#com.hyphenate.chatuidemo.ui.GroupDetailsActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:96:9-99:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:98:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:99:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:97:13-52
+activity#com.hyphenate.chatuidemo.ui.GroupsActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:101:9-105:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:103:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:105:13-52
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:104:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:102:13-46
+activity#com.hyphenate.chatuidemo.ui.ChatRoomDetailsActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:108:9-111:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:110:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:111:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:109:13-55
+activity#com.hyphenate.chatuidemo.ui.NewChatRoomActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:113:9-117:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:115:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:117:13-52
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:116:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:114:13-51
+activity#com.hyphenate.chatuidemo.ui.NewGroupActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:120:9-124:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:122:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:124:13-52
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:123:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:121:13-48
+activity#com.hyphenate.chatuidemo.ui.ExitGroupDialog
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:126:9-129:58
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:128:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:129:13-55
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:127:13-47
+activity#com.hyphenate.chatuidemo.ui.GroupPickContactsActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:131:9-135:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:133:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:135:13-52
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:134:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:132:13-57
+activity#com.hyphenate.chatuidemo.ui.PickAtUserActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:136:9-139:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:138:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:139:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:137:13-50
+activity#com.hyphenate.easeui.ui.EaseBaiduMapActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:141:9-144:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:143:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:144:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:142:13-72
+activity#com.hyphenate.chatuidemo.ui.NewFriendsMsgActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:147:9-150:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:149:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:150:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:148:13-53
+activity#com.hyphenate.chatuidemo.ui.ForwardMessageActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:152:9-156:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:154:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:156:13-52
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:155:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:153:13-54
+activity#com.hyphenate.chatuidemo.ui.ContextMenuActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:158:9-161:52
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:160:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:161:13-49
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:159:13-51
+activity#com.hyphenate.easeui.ui.EaseShowBigImageActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:163:9-166:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:165:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:166:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:164:13-76
+activity#com.hyphenate.easeui.ui.EaseShowNormalFileActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:168:9-171:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:170:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:171:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:169:13-78
+activity#com.hyphenate.chatuidemo.ui.BlacklistActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:173:9-176:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:175:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:176:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:174:13-49
+activity#com.hyphenate.chatuidemo.ui.PublicGroupsActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:179:9-183:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:181:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:183:13-52
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:182:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:180:13-52
+activity#com.hyphenate.chatuidemo.ui.PublicChatRoomsActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:184:9-188:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:186:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:188:13-52
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:187:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:185:13-55
+activity#com.hyphenate.chatuidemo.ui.VoiceCallActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:191:9-195:51
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:194:13-49
+	android:launchMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:193:13-44
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:195:13-48
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:192:13-49
+activity#com.hyphenate.chatuidemo.ui.VideoCallActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:197:9-202:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:201:13-49
+	android:launchMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:200:13-44
+	android:configChanges
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:199:13-74
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:202:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:198:13-49
+activity#com.hyphenate.chatuidemo.conference.ConferenceActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:204:9-209:54
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:208:13-49
+	android:launchMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:207:13-44
+	android:configChanges
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:206:13-74
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:209:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:205:13-58
+activity#com.hyphenate.chatuidemo.conference.ConferenceInviteJoinActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:211:9-215:54
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:214:13-49
+	android:configChanges
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:213:13-74
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:215:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:212:13-68
+activity#com.hyphenate.chatuidemo.ui.GroupSimpleDetailActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:217:9-220:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:219:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:220:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:218:13-57
+activity#com.hyphenate.chatuidemo.ui.GroupBlacklistActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:222:9-225:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:224:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:225:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:223:13-54
+activity#com.hyphenate.chatuidemo.ui.GroupSearchMessageActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:226:9-230:58
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:228:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:230:13-55
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:229:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:227:13-58
+activity#com.hyphenate.chatuidemo.ui.PublicGroupsSeachActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:231:9-234:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:233:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:234:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:232:13-57
+activity#com.hyphenate.chatuidemo.ui.EditActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:235:9-239:58
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:237:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:239:13-55
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:238:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:236:13-44
+activity#com.hyphenate.chatuidemo.ui.SharedFilesActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:240:9-243:15
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:241:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:242:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:240:19-57
+activity#com.hyphenate.easeui.ui.EaseShowVideoActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:244:9-248:63
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:246:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:248:13-60
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:247:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:245:13-73
+activity#com.hyphenate.easeui.ui.EaseDingMsgSendActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:250:9-254:63
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:252:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:254:13-60
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:253:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:251:13-75
+activity#com.hyphenate.easeui.ui.EaseDingAckUserListActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:256:9-260:63
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:258:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:260:13-60
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:259:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:257:13-79
+activity#com.hyphenate.chatuidemo.ui.ImageGridActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:262:9-266:63
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:264:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:266:13-60
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:265:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:263:13-49
+activity#com.hyphenate.chatuidemo.ui.RecorderVideoActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:267:9-271:63
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:269:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:271:13-60
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:270:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:268:13-53
+activity#com.hyphenate.chatuidemo.ui.DiagnoseActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:273:9-277:63
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:275:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:277:13-60
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:276:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:274:13-48
+activity#com.hyphenate.chatuidemo.ui.MultiDeviceActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:278:9-281:68
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:279:19-55
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:281:19-66
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:280:19-58
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:278:19-57
+activity#com.hyphenate.chatuidemo.ui.NamePasswordActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:282:9-284:60
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:283:19-55
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:284:19-58
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:282:19-58
+activity#com.hyphenate.chatuidemo.ui.OfflinePushNickActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:287:9-291:63
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:289:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:291:13-60
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:290:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:288:13-55
+activity#com.hyphenate.chatuidemo.ui.RobotsActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:293:9-297:63
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:295:13-49
+	android:windowSoftInputMode
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:297:13-60
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:296:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:294:13-46
+activity#com.hyphenate.chatuidemo.ui.UserProfileActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:299:9-302:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:301:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:302:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:300:13-51
+activity#com.hyphenate.chatuidemo.ui.SetServersActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:303:9-306:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:305:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:306:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:304:13-50
+activity#com.hyphenate.chatuidemo.ui.OfflinePushSettingsActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:307:9-310:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:309:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:310:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:308:13-59
+activity#com.hyphenate.chatuidemo.ui.CallOptionActivity
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:311:9-314:55
+	android:screenOrientation
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:313:13-49
+	android:theme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:314:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:312:13-50
+receiver#com.hyphenate.chatuidemo.receiver.StartServiceReceiver
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:317:9-324:20
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:317:19-64
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON+android.intent.category.LAUNCHER
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:318:13-323:29
+	android:priority
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:318:28-51
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:319:17-79
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:319:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:320:17-82
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:320:25-79
+service#com.hyphenate.chatuidemo.fcm.EMFCMMSGService
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:327:9-331:19
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:327:18-53
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:328:13-330:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:329:17-78
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:329:25-75
+service#com.hyphenate.chatuidemo.fcm.EMFCMTokenRefreshService
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:333:9-337:19
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:333:18-62
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:334:13-336:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:335:17-80
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:335:25-77
+service#com.xiaomi.mipush.sdk.PushMessageHandler
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:341:9-345:46
+	android:enabled
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:343:13-35
+	android:exported
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:344:13-36
+	tools:ignore
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:345:13-43
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:342:13-68
+service#com.xiaomi.mipush.sdk.MessageHandleService
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:346:9-348:38
+	android:enabled
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:348:13-35
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:347:13-70
+receiver#com.hyphenate.chat.EMMipushReceiver
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:350:9-363:20
+	android:exported
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:352:13-36
+	tools:ignore
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:353:13-44
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:351:13-63
+intent-filter#com.xiaomi.mipush.RECEIVE_MESSAGE
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:354:13-356:29
+action#com.xiaomi.mipush.RECEIVE_MESSAGE
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:355:17-76
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:355:25-73
+intent-filter#com.xiaomi.mipush.MESSAGE_ARRIVED
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:357:13-359:29
+action#com.xiaomi.mipush.MESSAGE_ARRIVED
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:358:17-76
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:358:25-73
+intent-filter#com.xiaomi.mipush.ERROR
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:360:13-362:29
+action#com.xiaomi.mipush.ERROR
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:361:17-66
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:361:25-63
+receiver#com.hyphenate.chatuidemo.receiver.HMSPushReceiver
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:370:9-381:20
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:370:19-59
+intent-filter#com.huawei.android.push.intent.CLICK+com.huawei.android.push.intent.RECEIVE+com.huawei.android.push.intent.REGISTRATION+com.huawei.intent.action.PUSH_STATE
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:371:13-380:29
+action#com.huawei.android.push.intent.REGISTRATION
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:373:17-85
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:373:25-83
+action#com.huawei.android.push.intent.RECEIVE
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:375:17-80
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:375:25-78
+action#com.huawei.android.push.intent.CLICK
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:377:17-78
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:377:25-76
+action#com.huawei.intent.action.PUSH_STATE
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:379:17-77
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:379:25-75
+meta-data#EASEMOB_APPKEY
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:385:9-387:55
+	android:value
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:387:13-52
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:386:13-42
+service#com.hyphenate.chat.EMChatService
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:389:9-392:46
+	android:exported
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:391:13-36
+	tools:ignore
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:392:13-43
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:390:13-60
+service#com.hyphenate.chat.EMJobService
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:393:9-396:72
+	android:exported
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:395:13-36
+	android:permission
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:396:13-69
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:394:13-59
+receiver#com.hyphenate.chat.EMMonitorReceiver
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:399:9-410:20
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:399:19-70
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:400:13-404:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:401:17-80
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:401:25-77
+data
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:403:17-50
+	android:scheme
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:403:23-47
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.USER_PRESENT
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:406:13-409:29
+action#android.intent.action.USER_PRESENT
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:408:17-77
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:408:25-74
+service#com.baidu.location.f
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:413:9-416:41
+	android:enabled
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:415:13-35
+	android:process
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:416:13-38
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:414:13-48
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:417:9-419:64
+	android:value
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:419:13-61
+	android:name
+		ADDED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:418:13-52
+uses-sdk
+INJECTED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\wang\.android\build-cache\b1d571dfcbed01992396a58487a86d42d6a6bbe5\output\AndroidManifest.xml:18:5-42
+MERGED from [ChatDemoUI3.0:easeui:unspecified] E:\Android-project\Android-project\huanxin\examples\easeui\easeui\build\intermediates\bundles\default\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\wang\.android\build-cache\32b3e02b62a62db93ad7451e52fc2356f6a6b14d\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\wang\.android\build-cache\575b36ef99e027311abc8cd325774ebfb9e5a014\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\wang\.android\build-cache\c81a3dd5549f6f4bfd255752bce2aa13cbcf671c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\wang\.android\build-cache\9350b5b3b6fc4c73308e9e93611033676956dece\output\AndroidManifest.xml:21:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] C:\Users\wang\.android\build-cache\783cde80ffd1b29929775c74adee278198b57fba\output\AndroidManifest.xml:17:5-43
+MERGED from [com.tencent.bugly:crashreport:2.6.6.1] C:\Users\wang\.android\build-cache\7aa12b0814552b979024d617d3dd9242f0b8eac1\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\wang\.android\build-cache\3d1d8a2200fe7790fb614a0e314dc72f3ab7ed6e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.android.hms:push:2.6.0.301] C:\Users\wang\.android\build-cache\30d50c4f2f8b2c693e94f0f91a3787d668e7da0c\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.android.hms:base:2.6.0.301] C:\Users\wang\.android\build-cache\2bc9ed3a830a748475519918e4d3b2a876055b6c\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:11.4.0] C:\Users\wang\.android\build-cache\a40313852923455b0d580a946ab2ebb2d0e98dcd\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\wang\.android\build-cache\9aa8a2a356568350a6f4381429aa6906602f4991\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.0] C:\Users\wang\.android\build-cache\9d0eb2e6ecb9930841d4040a7ecbd8ab378be55c\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\wang\.android\build-cache\3d0a58acae5d4dffb0a98087c5b5f18b633be8d8\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\wang\.android\build-cache\289b939e29b334f098d770c4870ffc5cdea6b9d6\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\wang\.android\build-cache\4e8ccf6f026767e9e6d9b9762bc21015ddc24de9\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\wang\.android\build-cache\3d3254c6a95864a4c2fbd638c705692c0564c300\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\wang\.android\build-cache\0bf3b4e6b4766f2f07447a1239c1a562c43061f8\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\wang\.android\build-cache\554c7e802afd906091e174977c184338f0b90c8e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\wang\.android\build-cache\b824cffba36d26adc300a471ca8db5ee07fca10b\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\wang\.android\build-cache\b9275c858809eff9c636f3be2341b35780b52cdb\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\wang\.android\build-cache\575b36ef99e027311abc8cd325774ebfb9e5a014\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\wang\.android\build-cache\32b3e02b62a62db93ad7451e52fc2356f6a6b14d\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\wang\.android\build-cache\32b3e02b62a62db93ad7451e52fc2356f6a6b14d\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\wang\.android\build-cache\32b3e02b62a62db93ad7451e52fc2356f6a6b14d\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\wang\.android\build-cache\32b3e02b62a62db93ad7451e52fc2356f6a6b14d\output\AndroidManifest.xml:19:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.4.0] C:\Users\wang\.android\build-cache\783cde80ffd1b29929775c74adee278198b57fba\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] C:\Users\wang\.android\build-cache\783cde80ffd1b29929775c74adee278198b57fba\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] C:\Users\wang\.android\build-cache\783cde80ffd1b29929775c74adee278198b57fba\output\AndroidManifest.xml:23:18-87
+meta-data#com.huawei.hms.client.appid
+ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:25:9-27:46
+	android:value
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:26:13-55
+provider#com.huawei.hms.update.provider.UpdateProvider
+ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:29:9-33:50
+	android:authorities
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:31:13-79
+	android:grantUriPermissions
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:33:13-47
+	android:exported
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:30:13-73
+provider#com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider
+ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:35:9-39:50
+	android:authorities
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:37:13-82
+	android:grantUriPermissions
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:39:13-47
+	android:exported
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:36:13-83
+activity#com.huawei.android.hms.agent.common.HMSAgentActivity
+ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:41:9-51:20
+	android:excludeFromRecents
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:44:13-46
+	android:hardwareAccelerated
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:46:13-47
+	android:exported
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:45:13-37
+	android:configChanges
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:43:13-92
+	android:theme
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:47:13-61
+	android:name
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:42:13-80
+meta-data#hwc-theme
+ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:48:13-50:77
+MERGED from [com.huawei.android.hms:base:2.6.0.301] C:\Users\wang\.android\build-cache\2bc9ed3a830a748475519918e4d3b2a876055b6c\output\AndroidManifest.xml:17:13-19:77
+	android:value
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:50:17-74
+	android:name
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:49:17-41
+activity#com.huawei.hms.activity.BridgeActivity
+ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:53:9-63:20
+MERGED from [com.huawei.android.hms:base:2.6.0.301] C:\Users\wang\.android\build-cache\2bc9ed3a830a748475519918e4d3b2a876055b6c\output\AndroidManifest.xml:10:9-20:20
+	android:excludeFromRecents
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:56:13-46
+	android:hardwareAccelerated
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:58:13-47
+	android:exported
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:57:13-37
+	android:configChanges
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:55:13-92
+	android:theme
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:59:13-61
+	android:name
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:54:13-66
+activity#com.huawei.updatesdk.service.otaupdate.AppUpdateActivity
+ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:65:9-73:20
+	android:exported
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:68:13-37
+	android:configChanges
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:67:13-59
+	android:theme
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:69:13-49
+	android:name
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:66:13-84
+activity#com.huawei.updatesdk.support.pm.PackageInstallerActivity
+ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:75:9-83:20
+	android:exported
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:78:13-37
+	android:configChanges
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:77:13-74
+	android:theme
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:79:13-49
+	android:name
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:76:13-84
+receiver#com.huawei.hms.support.api.push.PushEventReceiver
+ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:85:9-89:20
+	android:name
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:85:19-83
+intent-filter#com.huawei.intent.action.PUSH
+ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:86:13-88:29
+action#com.huawei.intent.action.PUSH
+ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:87:17-72
+	android:name
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:87:25-69
+service#com.huawei.updatesdk.service.deamon.download.DownloadService
+ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:91:9-93:40
+	android:exported
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:93:13-37
+	android:name
+		ADDED from [ChatDemoUI3.0:hmspush:unspecified] E:\Android-project\Android-project\huanxin\examples\ChatDemoUI3.0\hmspush\build\intermediates\bundles\default\AndroidManifest.xml:92:13-88
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\wang\.android\build-cache\9aa8a2a356568350a6f4381429aa6906602f4991\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] C:\Users\wang\.android\build-cache\9aa8a2a356568350a6f4381429aa6906602f4991\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] C:\Users\wang\.android\build-cache\7d3ca3a4a5ff067164949ba18240c2f70f9976b6\output\AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] C:\Users\wang\.android\build-cache\aacce3fb427becbf069248551e40291eb35e05c6\output\AndroidManifest.xml:43:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.4.0] C:\Users\wang\.android\build-cache\9d0eb2e6ecb9930841d4040a7ecbd8ab378be55c\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.4.0] C:\Users\wang\.android\build-cache\9d0eb2e6ecb9930841d4040a7ecbd8ab378be55c\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.4.0] C:\Users\wang\.android\build-cache\9d0eb2e6ecb9930841d4040a7ecbd8ab378be55c\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.4.0] C:\Users\wang\.android\build-cache\9d0eb2e6ecb9930841d4040a7ecbd8ab378be55c\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.4.0] C:\Users\wang\.android\build-cache\9d0eb2e6ecb9930841d4040a7ecbd8ab378be55c\output\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\wang\.android\build-cache\289b939e29b334f098d770c4870ffc5cdea6b9d6\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\wang\.android\build-cache\289b939e29b334f098d770c4870ffc5cdea6b9d6\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\wang\.android\build-cache\289b939e29b334f098d770c4870ffc5cdea6b9d6\output\AndroidManifest.xml:20:20-65

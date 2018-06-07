@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>ZoomIn</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <attr format="reference" name="SwipeBackLayoutStyle"/>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <color name="add_troop_member_bg">#ffdadfe2</color>
+    <color name="album_list_item_count_color">#bcbcbc</color>
+    <color name="black">#000000</color>
+    <color name="button_reply_normal">#ffffffff</color>
+    <color name="button_reply_pressed">#fffff8d0</color>
+    <color name="chat_background">@color/window_bg</color>
+    <color name="chat_history_time_text">@color/color_shenhui</color>
+    <color name="chat_text">@color/color_cihei</color>
+    <color name="chat_time">@color/color_bai</color>
+    <color name="chat_title_name">@color/color_bai</color>
+    <color name="color_bai">#ffffffff</color>
+    <color name="color_bai_8">#ffffffff</color>
+    <color name="color_cihei">#ff333333</color>
+    <color name="color_cyclingdate">#FF3300</color>
+    <color name="color_divider">#ffc9c9c9</color>
+    <color name="color_divider_for_contactlist_lower">#ffc2c8cd</color>
+    <color name="color_divider_for_recentlist_upper">#ffadb4ba</color>
+    <color name="color_divider_for_trooplist">#ffc9c9c9</color>
+    <color name="color_hei">#ff000000</color>
+    <color name="color_hei_8">#00000000</color>
+    <color name="color_lan">#ff067bb1</color>
+    <color name="color_qianhui">#ff888b8d</color>
+    <color name="color_shenhui">#ff999999</color>
+    <color name="color_zhonghui">#ff798089</color>
+    <color name="color_zuiqianhui">#ffb4b4b4</color>
+    <color name="comment_nick_name">#ff000000</color>
+    <color name="default_circle_indicator_fill_color">#ff298ecb</color>
+    <color name="default_circle_indicator_page_color">#ff777777</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_light_black_color">#424242</color>
+    <color name="emo_item_sel">#ff1f2124</color>
+    <color name="fifteen_trans_black">#26000000</color>
+    <color name="gray">#ff777777</color>
+    <color name="grey">#58616d</color>
+    <color name="holo_blue">#FF33E5B5</color>
+    <color name="lightgray">#ff555555</color>
+    <color name="list_contact_prompt_line">#ffc2c8cd</color>
+    <color name="list_divider_color">#d1d1d1</color>
+    <color name="list_item_focus_for_friendlist">#ffd3d7da</color>
+    <color name="list_item_focus_for_troop">#ffe9eaeb</color>
+    <color name="orange">#ff3300</color>
+    <color name="recent_msg">@color/color_zhonghui</color>
+    <color name="red">#ffff0000</color>
+    <color name="sc_transparent_background">@color/color_hei_8</color>
+    <color name="screenshot_normal">#3f000000</color>
+    <color name="screenshot_pressed">#bf000000</color>
+    <color name="search_cancel_text">#ff0e0e0e</color>
+    <color name="search_text">#ff929292</color>
+    <color name="semi_transparent">#7f000000</color>
+    <color name="semi_transparent_w">#7fffffff</color>
+    <color name="setting_bg">#ffe3e6e8</color>
+    <color name="shorttextColor">#ff8d8d8d</color>
+    <color name="sqqname">#ffee860a</color>
+    <color name="switchtextcolor">#FFFFFF</color>
+    <color name="text_comment">#ff6b6b6b</color>
+    <color name="text_drag_refresh_big">@color/color_shenhui</color>
+    <color name="text_nick_name">#ff333333</color>
+    <color name="text_shadow_color">#66000000</color>
+    <color name="thirty_transparent_black">#4d000000</color>
+    <color name="titlbarBgColor">#181A1A</color>
+    <color name="title_bg">#ff54acea</color>
+    <color name="translucent_background">#5c000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparentpercent">#e5000000</color>
+    <color name="twenty_transparent_black">#33000000</color>
+    <color name="user_portrait_bk">#20465A</color>
+    <color name="white">#ffffff</color>
+    <color name="window_bg">#ffeef1f3</color>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="JazzyViewPager"><attr name="style">
+            <enum name="standard" value="0"/>
+            <enum name="tablet" value="1"/>
+            <enum name="cubein" value="2"/>
+            <enum name="cubeout" value="3"/>
+            <enum name="flipvertical" value="4"/>
+            <enum name="fliphorizontal" value="5"/>
+            <enum name="stack" value="6"/>
+            <enum name="zoomin" value="7"/>
+            <enum name="zoomout" value="8"/>
+            <enum name="rotateup" value="9"/>
+            <enum name="rotatedown" value="10"/>
+            <enum name="accordion" value="11"/>
+        </attr><attr format="boolean" name="fadeJazzEnabled"/><attr format="boolean" name="outlineEnabled"/><attr format="color|reference" name="outlineColor"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode">
+            <flag name="disabled" value="0x0"/>
+            <flag name="pullFromStart" value="0x1"/>
+            <flag name="pullFromEnd" value="0x2"/>
+            <flag name="both" value="0x3"/>
+            <flag name="manualOnly" value="0x4"/>
+
+            
+            <flag name="pullDownFromTop" value="0x1"/>
+            <flag name="pullUpFromBottom" value="0x2"/>
+        </attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle">
+            <flag name="rotate" value="0x0"/>
+            <flag name="flip" value="0x1"/>
+        </attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="SlidingLayer"><attr format="boolean" name="shadow_drawable"/><attr format="dimension" name="shadow_width"/><attr format="boolean" name="close_on_tapEnabled"/><attr format="enum" name="stickTo">
+            <enum name="auto" value="0"/>
+            <enum name="right" value="-1"/>
+            <enum name="left" value="-2"/>
+            <enum name="middle" value="-3"/>
+        </attr></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+        </attr><attr name="touchModeBehind">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+        </attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
+    <declare-styleable name="SwipeBackLayout"><attr format="dimension" name="edge_size"/><attr name="edge_flag">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="all" value="3"/>
+        </attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable>
+    <declare-styleable name="SwipeListView"><attr format="boolean" name="swipeOpenOnLongPress"/><attr format="integer" name="swipeAnimationTime"/><attr format="dimension" name="swipeOffsetLeft"/><attr format="dimension" name="swipeOffsetRight"/><attr format="boolean" name="swipeCloseAllItemsWhenMoveList"/><attr format="reference" name="swipeFrontView"/><attr format="reference" name="swipeBackView"/><attr format="enum" name="swipeMode">
+            <enum name="none" value="0"/>
+            <enum name="both" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="left" value="3"/>
+        </attr><attr format="enum" name="swipeActionLeft">
+            <enum name="reveal" value="0"/>
+            <enum name="dismiss" value="1"/>
+        </attr><attr format="enum" name="swipeActionRight">
+            <enum name="reveal" value="0"/>
+            <enum name="dismiss" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <dimen name="album_list_item_name_size">15sp</dimen>
+    <dimen name="album_top_cancel_size">14sp</dimen>
+    <dimen name="bottom_bar_default_height">50dp</dimen>
+    <dimen name="defauleTitleBtnHeight">48dp</dimen>
+    <dimen name="defauleTitleBtnPadding">11dp</dimen>
+    <dimen name="defauleTitleBtnWidth">65dp</dimen>
+    <dimen name="defauleTitleHeight">48dp</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="titleBarHeight">48dp</dimen>
+    <dimen name="titleTextSizeMin">4dp</dimen>
+    <dimen name="title_textsize">8dp</dimen>
+    <dimen name="top_bar_btn_minWidth">56dp</dimen>
+    <dimen name="top_bar_btn_right_margin">12dp</dimen>
+    <dimen name="top_bar_default_height">60dp</dimen>
+    <dimen name="top_bar_icon_vertical_padding">8dp</dimen>
+    <dimen name="top_title_size">20sp</dimen>
+    <drawable name="trans">@color/color_hei_8</drawable>
+    <item name="gd_action_bar" type="id"/>
+    <item name="gd_action_bar_content_view" type="id"/>
+    <item name="gd_action_bar_host" type="id"/>
+    <item name="gd_segmented_bar" type="id"/>
+    <item name="gd_segmented_content_view" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="selected_view" type="id"/>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <string name="album">相册</string>
+    <string name="album_empty">相册中没有图片</string>
+    <string name="app_is_run_background">在飞聊天Demo正在后台运行</string>
+    <string name="app_name">在飞聊天Demo</string>
+    <string name="cancel">取消</string>
+    <string name="need_choose_images">请选择图片～</string>
+    <string name="net_error_tip">当前网络不可用，请检查你的网络设置</string>
+    <string name="press_again_backrun">再按一次后台运行</string>
+    <string name="press_again_exit">再按一次退出应用</string>
+    <string name="preview">预览</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="send">发送</string>
+    <string name="unavailable_image_file">该文件已损坏</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在刷新...</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">释放立即刷新</string>
+    <string name="xlistview_header_last_time">上次更新：</string>
+    <style name="A1_Font">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/semi_transparent</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="A2_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/semi_transparent</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="A3_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/semi_transparent</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="A4_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/semi_transparent</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="A5_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="A6_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/semi_transparent</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="A7_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="A8_Font">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff0e0e0e</item>
+        <item name="android:shadowColor">#88ffffff</item>
+        <item name="android:shadowRadius">5.0</item>
+    </style>
+    <style name="B1_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff0e0e0e</item>
+    </style>
+    <style name="B2_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff0e0e0e</item>
+    </style>
+    <style name="B3_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff0e0e0e</item>
+    </style>
+    <style name="B4_Font">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff0e0e0e</item>
+    </style>
+    <style name="B4_Font_white">
+        <item name="android:textSize">15.0sp</item>
+    </style>
+    <style name="B4_Font_white2">
+        <item name="android:textSize">15.0sp</item>
+    </style>
+    <style name="B5_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff0e0e0e</item>
+        <item name="android:shadowColor">@color/semi_transparent_w</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="B6_Font">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ff0e0e0e</item>
+    </style>
+    <style name="B7_Font">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textColor">#ff0e0e0e</item>
+    </style>
+    <style name="C1_Font">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">#ff929292</item>
+    </style>
+    <style name="C2_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff929292</item>
+        <item name="android:shadowColor">@color/semi_transparent_w</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="C3_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff929292</item>
+    </style>
+    <style name="C4_Font">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ff929292</item>
+    </style>
+    <style name="C5_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff929292</item>
+    </style>
+    <style name="C6_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff929292</item>
+        <item name="android:shadowColor">@color/semi_transparent_w</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="C7_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff929292</item>
+        <item name="android:shadowColor">@color/semi_transparent_w</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="C8_Font_white">
+        <item name="android:textSize">15.0sp</item>
+    </style>
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">@color/black</item>
+    </style>
+    <style name="D1_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff727475</item>
+    </style>
+    <style name="D2_Font">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ff727475</item>
+    </style>
+    <style name="D3_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff727475</item>
+    </style>
+    <style name="D4_Font">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ff727475</item>
+        <item name="android:shadowColor">@color/semi_transparent_w</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="D5_Font">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">#ff727475</item>
+        <item name="android:shadowColor">@color/semi_transparent_w</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="D6_Font">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ff727475</item>
+        <item name="android:shadowColor">#ccffffff</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="D8_Font">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff727475</item>
+    </style>
+    <style name="Default" parent="@android:style/Theme.Black">
+        <item name="android:textColorPrimaryInverse">@android:color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleSize">46.0dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+        <item name="android:editTextStyle">@style/customEditText</item>
+        <item name="android:listViewStyle">@style/customListView</item>
+        <item name="android:radioButtonStyle">@style/customRadioButton</item>
+    </style>
+    <style name="Default.NoTitleBar" parent="@style/Default">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Default.NoTitleBar.Chat" parent="@style/Default.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Default.NoTitleBar.Fullscreen" parent="@style/Default.NoTitleBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <!-- 设置未浮动窗口 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 设置无边框 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置无标题 -->
+        <item name="android:windowBackground">@color/sc_transparent_background</item>
+        <!-- 设置完全透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 设置屏幕变暗 -->
+    </style>
+    <style name="E1_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff454a52</item>
+    </style>
+    <style name="E2_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff454a52</item>
+        <item name="android:shadowColor">@color/semi_transparent_w</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="F1_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff4686b3</item>
+    </style>
+    <style name="G1_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffeeeeee</item>
+    </style>
+    <style name="H1_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffbdbdbd</item>
+    </style>
+    <style name="I1_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#3fffffff</item>
+    </style>
+    <style name="J1_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff707070</item>
+    </style>
+    <style name="K1_Font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff3b639f</item>
+    </style>
+    <style name="K2_Font_white">
+        <item name="android:textSize">12.0sp</item>
+    </style>
+    <style name="L1_Font">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">#ffb5b7bb</item>
+        <item name="android:shadowColor">@color/semi_transparent_w</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="M1_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff1e5481</item>
+        <item name="android:shadowColor">#33ffffff</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="N1_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff8c0303</item>
+        <item name="android:shadowColor">#7fffffff</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="O1_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff1c1c1c</item>
+        <item name="android:shadowColor">#33ffffff</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="P1_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffb2b2b2</item>
+    </style>
+    <style name="P2_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffb2b2b2</item>
+    </style>
+    <style name="Q1_Font">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">#ff5786ae</item>
+    </style>
+    <style name="Q2_Font">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ff5786ae</item>
+    </style>
+    <style name="Q3_Font">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff5786ae</item>
+    </style>
+    <style name="Q4_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff5786ae</item>
+    </style>
+    <style name="R1_Font">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffb7b7b7</item>
+        <item name="android:shadowColor">@color/semi_transparent_w</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="RedGreen" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/color_bai</item>
+        <item name="android:shadowColor">@color/text_shadow_color</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="S1_Font">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff608b41</item>
+    </style>
+    <style name="S2_Font">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff608b41</item>
+    </style>
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+    </style>
+    <style name="T1_Font">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">#ffffff00</item>
+    </style>
+    <style name="T1_Outline_Font" parent="@style/T1_Font">
+        <item name="android:textColor">#ffff6600</item>
+    </style>
+    <style name="T2_Font">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">#ffcccccc</item>
+    </style>
+    <style name="T2_Outline_Font" parent="@style/T2_Font">
+        <item name="android:textColor">#ff999999</item>
+    </style>
+    <style name="TextAppearance.StatusBar" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent" parent="@style/TextAppearance.StatusBar">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Title" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+    <style name="customEditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/edit_text</item>
+    </style>
+    <style name="customExpandableListView" parent="@android:style/Widget.ExpandableListView">
+        <item name="android:scrollbarSize">10.0dip</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_vertical</item>
+        <item name="android:persistentDrawingCache">all</item>
+        <item name="android:alwaysDrawnWithCache">true</item>
+        <item name="android:scrollingCache">true</item>
+        <item name="android:cacheColorHint">@color/window_bg</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">1.0px</item>
+    </style>
+    <style name="customListView" parent="@android:style/Widget.ListView">
+        <item name="android:scrollingCache">false</item>
+        <item name="android:cacheColorHint">@null</item>
+    </style>
+    <style name="customProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal</item>
+    </style>
+    <style name="customProgressBar1" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal1</item>
+    </style>
+    <style name="customRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/checkbox_bg1</item>
+    </style>
+    <style name="horizontalProgressBarStyle" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">15.0dip</item>
+        <item name="android:minHeight">15.0dip</item>
+    </style>
+    <style name="progress_drawable_default">
+        <item name="android:maxWidth">30.0dip</item>
+        <item name="android:maxHeight">30.0dip</item>
+        <item name="android:minWidth">30.0dip</item>
+        <item name="android:minHeight">30.0dip</item>
+    </style>
+    <style name="quickaction_bar_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">2.0dip</item>
+        <item name="android:drawablePadding">0.0dip</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:minWidth">60.0dip</item>
+    </style>
+</resources>

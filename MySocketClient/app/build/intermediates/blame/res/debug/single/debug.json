@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_chatfrom_bg.xml.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\chatfrom_bg.xml"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_chatting_item_msg_text_right.xml.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\layout\\chatting_item_msg_text_right.xml"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_layout_bg1.9.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\layout_bg1.9.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_mini_avatar_shadow.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\mini_avatar_shadow.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_chatto_bg_normal.9.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\chatto_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_choose_chat.xml.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\layout\\activity_choose_chat.xml"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_mm_title_back_focused.9.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\mm_title_back_focused.9.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_mm_title_back_pressed.9.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\mm_title_back_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_chat.xml.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_chatting_item_msg_text_left.xml.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\layout\\chatting_item_msg_text_left.xml"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\menu_choose_chat.xml.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\menu\\choose_chat.xml"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_chatfrom_bg_normal.9.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\chatfrom_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon.jpg.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\icon.jpg"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_selector_btn_back.xml.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\selector_btn_back.xml"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_chatto_bg_pressed.9.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\chatto_bg_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_textview.xml.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\layout\\list_textview.xml"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_choose_chat.xml.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\layout\\fragment_choose_chat.xml"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_chatfrom_bg_focused.9.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\chatfrom_bg_focused.9.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_mm_title_back_normal.9.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\mm_title_back_normal.9.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_chatto_bg.xml.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\chatto_bg.xml"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_chatto_bg_focused.9.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\chatto_bg_focused.9.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_edittext1.9.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\edittext1.9.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_chatfrom_bg_pressed.9.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\chatfrom_bg_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\menu_login.xml.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\Android-project\\Android-project\\MySocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_mmtitle_bg.9.png.flat",
+        "source": "E:\\Android-project\\Android-project\\MySocketClient\\app\\src\\main\\res\\drawable-ldpi\\mmtitle_bg.9.png"
+    }
+]

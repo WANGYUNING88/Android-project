@@ -82,12 +82,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Client client = new Client();
-        try {
-            client.main();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+       MyServer myServer = new MyServer();
 //        /**
 //         * 初始化操作
 //         */

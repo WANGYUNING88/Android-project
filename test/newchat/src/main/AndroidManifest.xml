@@ -142,6 +142,7 @@
             </intent-filter>
         </receiver>
         <activity android:name=".NewActivity"/>
+        <activity android:name=".ChatActivity"/>
 
     <!-- Required. Enable it you can get statistics data with channel -->
     <meta-data

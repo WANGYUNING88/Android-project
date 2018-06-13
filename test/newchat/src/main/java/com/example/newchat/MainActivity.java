@@ -159,12 +159,14 @@ public class MainActivity extends AppCompatActivity {
                 // 处理文字消息
                 TextContent textContent = (TextContent) msg.getContent();
                 textContent.getText();
-                textView.setText(textContent.getText());
+                Msg msg1 = new Msg(textContent.getText(), Msg.TYPE_RECEIVED);
+                Content.msgList.add(msg1);
+                Content.adapter.notifyDataSetChanged();
                 break;
         }
     }
     public void onEvent(NotificationClickEvent event) {
-        Intent notificationIntent = new Intent(this, ChatActivity.class);
+        Intent notificationIntent = new Intent(this, NewActivity.class);
         this.startActivity(notificationIntent);// 自定义跳转到指定页面
     }
 }

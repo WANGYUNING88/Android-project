@@ -17,6 +17,7 @@ import cn.jpush.im.android.api.content.ImageContent;
 import cn.jpush.im.android.api.content.TextContent;
 import cn.jpush.im.android.api.content.VoiceContent;
 import cn.jpush.im.android.api.event.MessageEvent;
+import cn.jpush.im.android.api.event.NotificationClickEvent;
 import cn.jpush.im.android.api.model.Conversation;
 import cn.jpush.im.android.api.model.Message;
 import cn.jpush.im.android.api.options.MessageSendingOptions;
@@ -93,33 +94,6 @@ public class MainActivity extends AppCompatActivity {
                         if (i == 0) {
                             // 登录成功
                             textView.setText(SUCCESSED_2);
-                            String friend_id = friend_username.getText().toString();
-                            Conversation.createSingleConversation(friend_id);
-                            Conversation mConversation = JMessageClient.getSingleConversation(friend_id);
-                            String content = sendText.getText().toString();
-                            message = mConversation.createSendMessage(new TextContent(content));
-                            message.setOnSendCompleteCallback(new BasicCallback() {
-                                @Override
-                                public void gotResult(int responseCode, String responseDesc) {
-                                    if (responseCode == 0) {
-                                        //消息发送成功
-                                        Toast.makeText(MainActivity.this, "发送成功", Toast.LENGTH_SHORT).show();
-                                    } else {
-                                        //消息发送失败
-                                        Toast.makeText(MainActivity.this, "发送失败", Toast.LENGTH_SHORT).show();
-
-                                    }
-                                }
-                            });
-                            button_send.setOnClickListener(new View.OnClickListener() {
-                                @Override
-                                public void onClick(View v) {
-                                    MessageSendingOptions options = new MessageSendingOptions();
-                                    options.setRetainOffline(false);
-
-                                    JMessageClient.sendMessage(message);//使用默认控制参数发送消息
-                                }
-                            });
 
                         } else {
                             // 登录失败。status：错误码；desc：错误描述
@@ -129,6 +103,35 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
+        button_send.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String friend_id = friend_username.getText().toString();
+                Conversation.createSingleConversation(friend_id);
+                Conversation mConversation = JMessageClient.getSingleConversation(friend_id);
+                String content = sendText.getText().toString();
+                message = mConversation.createSendMessage(new TextContent(content));
+                message.setOnSendCompleteCallback(new BasicCallback() {
+                    @Override
+                    public void gotResult(int responseCode, String responseDesc) {
+                        if (responseCode == 0) {
+                            //消息发送成功
+                            Toast.makeText(MainActivity.this, "发送成功", Toast.LENGTH_SHORT).show();
+                        } else {
+                            //消息发送失败
+                            Toast.makeText(MainActivity.this, "发送失败", Toast.LENGTH_SHORT).show();
+
+                        }
+                    }
+                });
+
+                MessageSendingOptions options = new MessageSendingOptions();
+                options.setRetainOffline(false);
+
+                JMessageClient.sendMessage(message);//使用默认控制参数发送消息
+            }
+        });
+
     }
 
     @Override
@@ -149,35 +152,19 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
     }
 
-    public void onEvent(MessageEvent event) {
+    public void onEventMainThread(MessageEvent event) {
         Message msg = event.getMessage();
-
         switch (msg.getContentType()) {
             case text:
-                //处理文字消息
+                // 处理文字消息
                 TextContent textContent = (TextContent) msg.getContent();
                 textContent.getText();
-                Toast.makeText(MainActivity.this, textContent.getText().toString(), Toast.LENGTH_SHORT).show();
-                break;
-            case image:
-                //处理图片消息
-                ImageContent imageContent = (ImageContent) msg.getContent();
-                imageContent.getLocalPath();//图片本地地址
-                imageContent.getLocalThumbnailPath();//图片对应缩略图的本地地址
-                break;
-            case voice:
-                //处理语音消息
-                VoiceContent voiceContent = (VoiceContent) msg.getContent();
-                voiceContent.getLocalPath();//语音文件本地地址
-                voiceContent.getDuration();//语音文件时长
-                break;
-            case custom:
-                //处理自定义消息
-                CustomContent customContent = (CustomContent) msg.getContent();
-                customContent.getNumberValue("custom_num"); //获取自定义的值
-                customContent.getBooleanValue("custom_boolean");
-                customContent.getStringValue("custom_string");
+                textView.setText(textContent.getText());
                 break;
         }
+    }
+    public void onEvent(NotificationClickEvent event) {
+        Intent notificationIntent = new Intent(this, ChatActivity.class);
+        this.startActivity(notificationIntent);// 自定义跳转到指定页面
     }
 }

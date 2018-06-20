@@ -58,6 +58,9 @@ public class MainActivity extends AppCompatActivity {
         sendText = findViewById(R.id.send_text);
         button_send = findViewById(R.id.send);
 
+        String ip = IpUtil.getLocalHostAddress();
+        Toast.makeText(this,ip,Toast.LENGTH_LONG).show();
+
         Button button = findViewById(R.id.btn_register);
         button.setOnClickListener(new View.OnClickListener() {
             @Override

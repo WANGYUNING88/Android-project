@@ -170,6 +170,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onEvent(NotificationClickEvent event) {
         Intent notificationIntent = new Intent(this, NewActivity.class);
+        String name = event.getMessage().getFromID();
+        notificationIntent.putExtra("username",name);
         this.startActivity(notificationIntent);// 自定义跳转到指定页面
     }
 }

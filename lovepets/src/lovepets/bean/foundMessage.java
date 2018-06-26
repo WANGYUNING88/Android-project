@@ -9,8 +9,23 @@ public class foundMessage {
 	private List<String> imageurl=new ArrayList<>();
 	private String username;
 	private String userimage;
+	private int userid;
+	public int getUserid() {
+		return userid;
+	}
+	public void setUserid(int userid) {
+		this.userid = userid;
+	}
 	private Date date;
 	private String fconnect;
+	private int found_id;
+	
+	public int getFound_id() {
+		return found_id;
+	}
+	public void setFound_id(int found_id) {
+		this.found_id = found_id;
+	}
 	public List<String> getImageurl() {
 		return imageurl;
 	}

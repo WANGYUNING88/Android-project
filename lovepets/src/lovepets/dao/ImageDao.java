@@ -42,6 +42,38 @@ public class ImageDao {
     	}
     	return false;
     }
+    public List<String> selectByUser_id(int user_id) {
+		// TODO Auto-generated method stub
+		
+		try {
+			 ps = connection.prepareStatement("select * from image where user_id= ?");			 
+			 ps.setInt(1,user_id);
+			 rs = ps.executeQuery();
+			while(rs.next()) {
+				image image = new image();
+				image.setImage_id(rs.getInt("image_id"));
+				image.setFound_id(rs.getInt("found_id"));
+				
+				image.setImage_path(rs.getString("image_path"));
+				image.setUser_id(rs.getInt("user_id"));
+		
+				images.add(image.getImage_path());
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			try {
+				rs.close();
+				ps.close();
+				connection.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		return images;
+	}
 	public List<String> selectByFound_id(int found_id) {
 		// TODO Auto-generated method stub
 		

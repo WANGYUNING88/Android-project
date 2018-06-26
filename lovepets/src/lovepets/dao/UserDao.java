@@ -137,7 +137,6 @@ public class UserDao {
 		}
 		return false;
 	}
-
 //FIND USER
 	public User findUserByUsername(String username) {
 		sql = "select * from User where user_name= ?";

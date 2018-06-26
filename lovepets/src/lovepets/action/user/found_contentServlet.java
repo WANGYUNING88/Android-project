@@ -41,6 +41,8 @@ public class found_contentServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		request.setCharacterEncoding("utf-8");
+		response.setCharacterEncoding("utf-8");
 		List<found> found=null;
         FoundDao founddao=new FoundDao();
         found =founddao.selectAllfound();
@@ -72,8 +74,10 @@ public class found_contentServlet extends HttpServlet {
 //            System.out.println("1111"+mes.getImageurl());
             mes.setUsername(user.getUser_name());
             mes.setUserimage(user.getUser_image());
+            mes.setUserid(user.getUser_id());
             mes.setFconnect(found.get(i).getFound_content());
             mes.setDate(found.get(i).getFound_date());
+            mes.setFound_id(found.get(i).getFound_id());
             mess.add(mes);
 //            System.out.println("sdaagadgadh"+user.getUser_name());
         }

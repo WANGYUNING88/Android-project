@@ -56,6 +56,38 @@ public class FoundDao {
 		return found;
 
 	}
+	public found selectByFoundid(int id) {
+		sql = "select * from found where found_id= ?";
+		try {
+			ps = connection.prepareStatement(sql);
+			eq = ps.executeQuery();
+			if (eq.next()) {
+				
+	
+			 found = new found();
+				found.setFound_id(eq.getInt("found_id"));
+				found.setUser_id(eq.getInt("user_id"));
+				found.setFound_date(eq.getDate("found_date"));
+				found.setFound_content(eq.getString("found_content"));
+				
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			try {
+				eq.close();
+				ps.close();
+				connection.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+		}
+		return found;
+
+	}
 	public List<found> selectAllfound(){
 		List<found> list = new ArrayList<found>();
 		try {

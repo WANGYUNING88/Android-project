@@ -54,7 +54,7 @@ public class addguanzhuServlet extends HttpServlet {
 	    	response.getWriter().append("已关注");
 	    }        	
  	    	
-	    }
+	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)

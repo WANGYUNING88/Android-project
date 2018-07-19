@@ -1,0 +1,187 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ISO15693" 
+	android:orientation="vertical" >
+    <Button
+      android:id="@+id/btnInitType"
+      style="?android:attr/buttonStyleSmall"
+      android:layout_width="fill_parent"
+      android:layout_height="40dp"
+      android:text="@string/btInitType" />     
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+	      <Button
+		        android:id="@+id/btnInventory"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/btInventory" />  
+		  <Button
+		        android:id="@+id/btnGetInformation"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/btGetInformation" />    
+    </LinearLayout>  
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+		 <Button
+		        android:id="@+id/btn15693StayQuiet"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/bt15693StayQuiet" />  
+	      <Button
+		        android:id="@+id/btn15693ResetToReady"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/bt15693ResetToReady" />  
+    </LinearLayout>     
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/etDataInput"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_weight="1.86"
+            android:ems="8"
+            android:text="@string/et15693DataValue" />
+
+        <Button
+            android:id="@+id/btn15693ReadBlock"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/bt15693ReadBlock" />
+
+        <Button
+            android:id="@+id/btn15693WriteBlock"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/bt15693WriteBlock" />
+    </LinearLayout>
+       
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+       <Button
+            android:id="@+id/btn15693LockBlock"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/bt15693LockBlock" />
+		 <Button
+		        android:id="@+id/btn15693WriteDSFID"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/bt15693WriteDSFID" />  
+	      <Button
+		        android:id="@+id/btn15693LockDSFID"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/bt15693LockDSFID" />  
+    </LinearLayout>  
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+		 <Button
+		        android:id="@+id/btn15693WriteAFI"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/bt15693WriteAFI" />  
+	      <Button
+		        android:id="@+id/btn15693LcokAFI"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/bt15693LcokAFI" />  
+		  <Button
+		        android:id="@+id/btn15693GetBlockSec"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/bt15693GetBlockSec" /> 
+    </LinearLayout>   
+   <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+		 <Button
+		        android:id="@+id/btn15693SetEAS"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/bt15693SetEAS" />  
+	      <Button
+		        android:id="@+id/btn15693LockEAS"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/bt15693LockEAS" />  
+		 <Button
+		        android:id="@+id/btn15693ResetEAS"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/bt15693ResetEAS" />  
+    </LinearLayout> 
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+   	      <Button
+	        android:id="@+id/btn15693EASAlarm"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+	        android:text="@string/bt15693EASAlarm" />     
+	    <Button
+	        android:id="@+id/btnReturn"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+	        android:text="@string/btReturn" />
+	</LinearLayout> 
+	    <TextView
+	        android:id="@+id/TextViewInfo"
+	        android:layout_width="match_parent"
+	        android:layout_height="30dp"
+	        android:layout_weight="0.02"
+	        android:background="#000000"
+	        android:inputType="textMultiLine"
+	        android:text="输出信息"
+	        android:textColor="#FFFFFF" />
+
+	    <TextView
+	        android:id="@+id/tvResult"
+	        android:layout_width="match_parent"
+	        android:layout_height="60dp"
+	        android:layout_weight="0.19"
+	        android:background="#000000"
+	        android:inputType="textMultiLine"
+	        android:text="输出信息"
+	        android:textColor="#FFFFFF" />
+
+</LinearLayout>

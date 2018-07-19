@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MifareOneActivity" 
+    android:orientation="vertical" >
+    <Button
+      android:id="@+id/btnInitType"
+      style="?android:attr/buttonStyleSmall"
+      android:layout_width="fill_parent"
+      android:layout_height="40dp"
+      android:text="@string/btInitType" />     
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+	      <Button
+		        android:id="@+id/btnRequest"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/btRequest" />  
+			<TextView
+				    android:id="@+id/tvSNR"
+				    android:layout_width="fill_parent"
+				    android:layout_height="40dp"
+				    android:background="#8000"
+				    android:gravity="center"
+				    android:textColor="#FFFFFF" 
+				    android:ems="10" />	    
+    </LinearLayout>
+    <EditText
+        android:id="@+id/etKeyInput"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:text="@string/etKeyValue" />
+	<EditText
+        android:id="@+id/etBlockData"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"  
+        android:layout_weight="0.44"   
+        android:ems="10"
+        android:inputType="textMultiLine" 
+        android:text="@string/etDataValue" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+		<Button
+	        android:id="@+id/btnAuth"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+	        android:text="@string/btAuth" />
+	
+   		<Button
+	        android:id="@+id/btnReadBlock"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+	        android:text="@string/btReadBlock" />
+	
+	    <Button
+	        android:id="@+id/btnWriteBlock"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+	        android:text="@string/btWriteBlock" />		
+    </LinearLayout>	 
+   <EditText
+        android:id="@+id/etValueData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:text="@string/etPurseValue" />
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"> 
+   
+				<Button
+			        android:id="@+id/btnInitValue"
+			        style="?android:attr/buttonStyleSmall"
+			        android:layout_width="wrap_content"
+			        android:layout_height="40dp"
+			        android:text="@string/btInitValue" />
+			
+			    <Button
+			        android:id="@+id/btnIncValue"
+			        style="?android:attr/buttonStyleSmall"
+			        android:layout_width="wrap_content"
+			        android:layout_height="40dp"
+			        android:text="@string/btIncValue" />
+			
+			    <Button
+			        android:id="@+id/btnDecValue"
+			        style="?android:attr/buttonStyleSmall"
+			        android:layout_width="wrap_content"
+			        android:layout_height="40dp"
+			        android:text="@string/btDecValue" />
+			
+			    <Button
+			        android:id="@+id/btnReadValue"
+			        style="?android:attr/buttonStyleSmall"
+			        android:layout_width="wrap_content"
+			        android:layout_height="40dp"
+			        android:text="@string/btReadValue" />
+		</LinearLayout>
+		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:orientation="horizontal"> 
+		    <Button
+		        android:id="@+id/btnHalt"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/btHalt" />
+		    <Button
+		        android:id="@+id/btnRestore"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/btRestore" />
+		    <Button
+		        android:id="@+id/btnTransfer"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="40dp"
+		        android:text="@string/btTransfer" />
+	    </LinearLayout>
+	    <Button
+	        android:id="@+id/btnReturn"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+	        android:text="@string/btReturn" />
+
+	    <TextView
+	        android:id="@+id/TextViewInfo"
+	        android:layout_width="match_parent"
+	        android:layout_height="30dp"
+	        android:layout_weight="0.02"
+	        android:background="#000000"
+	        android:inputType="textMultiLine"
+	        android:text="输出信息"
+	        android:textColor="#FFFFFF" />
+
+	    <TextView
+	        android:id="@+id/tvResult"
+	        android:layout_width="match_parent"
+	        android:layout_height="60dp"
+	        android:layout_weight="0.19"
+	        android:background="#000000"
+	        android:inputType="textMultiLine"
+	        android:text="输出信息"
+	        android:textColor="#FFFFFF" />
+
+</LinearLayout>

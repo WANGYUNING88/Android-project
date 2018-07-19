@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!--
+   android:paddingBottom="@dimen/activity_vertical_margin"
+   android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    -->
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.86"
+        android:stretchColumns="1" >
+
+        <TableRow>
+		    <EditText
+			        android:id="@+id/etComNo"
+			        android:layout_width="wrap_content"
+			        android:layout_height="40dp"   
+			        android:ems="10"
+			        android:text="@string/etStrComNo" />
+			<EditText
+			        android:id="@+id/etBaud"
+			        android:layout_width="wrap_content"
+			        android:layout_height="40dp"   
+			        android:ems="10"
+			        android:text="@string/etStrBaud" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btnOpenCom"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btOpenCom" />
+
+            <Button
+                android:id="@+id/btnCloseCom"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btCloseCom" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnBeep"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btBeep" />
+
+            <Button
+                android:id="@+id/btnLEDTest"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btLEDTest" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnMifareOneTest"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btMifareOneTest" />
+
+            <Button
+                android:id="@+id/btnTYPEACPUTest"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btTYPEACPUTest" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnTYPEBCPUTest"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btTYPEBCPUTest" />
+
+            <Button
+                android:id="@+id/btnPSAMTest"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btPSAMTest" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn15693Test"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bt15693Test" />
+
+            <Button
+                android:id="@+id/btnSRIX4KTest"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btSRIX4KTest" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnFelicaTest"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btFelicaTest" />
+
+            <Button
+                android:id="@+id/btnNameCardTest"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btNameCardTest" />
+        </TableRow>
+        <TableRow>
+			<Button
+                android:id="@+id/btnMorePSAMTest"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btMorePSAMTest" />
+            <Button
+                android:id="@+id/btnGetVer"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btGetVer" />
+            
+        </TableRow>
+        <TableRow>
+        </TableRow>
+    </TableLayout>
+
+   <TextView
+        android:id="@+id/TextViewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:inputType="textMultiLine"
+        android:text="输出信息"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:background="#000000"
+        android:inputType="textMultiLine"
+        android:text="输出信息"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

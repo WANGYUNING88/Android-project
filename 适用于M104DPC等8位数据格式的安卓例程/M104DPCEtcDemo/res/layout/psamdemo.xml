@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="卡槽：" />
+
+        <Spinner
+            android:id="@+id/Spinner01"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" >
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnpower"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="0.01"
+            android:text="上 电 "
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnpowerdown"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="0.01"
+            android:text="下 电 "
+            android:textSize="20dp" />
+
+   
+
+        <Button
+            android:id="@+id/btnreset"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="0.01"
+            android:text="复 位 "
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/btnRadom"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="0.01"
+            android:text="随机数"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   接收区:" />
+
+    <EditText
+        android:id="@+id/edit_text_out"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:inputType="textMultiLine" >
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="0.01"
+            android:text="   发送区："
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:text="                 " />
+
+        <Button
+            android:id="@+id/btnrclear"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="0.01"
+            android:text="清除接收区 "
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_text_in"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:gravity="top"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnsend"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="0.01"
+            android:text="  发送    "
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:text="        " />
+
+        <Button
+            android:id="@+id/btnsclr"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="0.01"
+            android:text="清空发送区 "
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
